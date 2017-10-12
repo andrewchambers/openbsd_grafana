@@ -5,7 +5,7 @@ set -e
 set -u
 
 # This script is a hack to get an openbsd version of grafana.
-# We repackage it this way because rebuilding the web pargs on openbsd
+# We repackage it this way because rebuilding the web stuff on openbsd
 # seems to be a pain.
 
 grafana_version=4.5.2
